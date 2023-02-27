@@ -18,7 +18,7 @@ const GridItem = (props) => {
 export const Text = () => {
     return (
 
-        <Stack width="100vw" position="relative" height={{ xs: '10vh', md: "35vw" }} alignItems="center" spacing="20px" overflow="hidden" backgroundColor='rgb(245, 245, 245)' paddingTop="50px">
+        <Stack width="100vw" position="relative" height={{ xs: '10vh', md: "40vw" }} alignItems="center" spacing="20px" overflow="hidden" backgroundColor='rgb(245, 245, 245)' paddingTop="50px">
             <Typography fontSize="16px" fontWeight="bold" color="rgb(242, 142, 0)" textAlign="center">Future of data center sustainability</Typography>
             <Typography width='800px' textAlign='center'>
                 S-System is a data center provider and leading innovation house in Mongolia's technology infrastructure industry,
@@ -30,7 +30,7 @@ export const Text = () => {
                 <Grid container spacing={6} width="70vw">
                     <Grid xs={12} md={4}>
                         <GridItem image={require('../../assets/icon4.svg')} />
-                        <Typography>
+                        <Typography width='250px' textAlign='center'>
                             <Typography>Professional team</Typography>
                             Team of certified engineers with proven track record and a long-lasting experience in systems and network engineering,
                             cyber sercurity and data center infrastucture
@@ -38,14 +38,14 @@ export const Text = () => {
                     </Grid>
                     <Grid xs={12} md={4}>
                         <GridItem image={require('../../assets/future.svg')} />
-                        <Typography>
+                        <Typography width='250px' textAlign='center'>
                             <Typography>Future ready</Typography>
                             Well equipped with latest system hardware from world leading manufacturers
                         </Typography>
                     </Grid>
                     <Grid xs={12} md={4}>
                         <GridItem image={require('../../assets/sustainable.svg')} />
-                        <Typography>
+                        <Typography width='250px' textAlign='center'>
                             <Typography>Sustainable</Typography>
                             Tier 3 Facility, Uninterruptible power supply
                         </Typography>

@@ -8,7 +8,7 @@ export const Text = () => {
     const router = useRouter()
 
     return (
-        <Stack width="100vw" position="relative" height={{ xs: '50vh', md: "30vw" }} alignItems="center" spacing="20px" overflow="hidden" backgroundColor='rgb(245, 245, 245)' paddingTop="30px">
+        <Stack width="100vw" position="relative" height={{ xs: '50vh', md: "35vw" }} alignItems="center" spacing="20px" overflow="hidden" backgroundColor='rgb(245, 245, 245)' paddingTop="30px">
             <Stack width="100vw" position="relative" height={{ xs: '50vh', md: "35vw" }} alignItems="center" spacing="20px" overflow="hidden" backgroundColor='rgb(245, 245, 245)' paddingTop="30px">
                 <Typography fontSize="16px" fontWeight="bold" color="rgb(242, 142, 0)" textAlign="center">History</Typography>
                 <Typography width='900px' textAlign='center'>
@@ -31,7 +31,7 @@ export const Text = () => {
                 </Typography>
                 {/* <CustomButton onClick={() => { router.push('/contactUs') }} value="CONTACT US" fontWeight="700" fontSize="13px" /> */}
 
-                <Stack width="100vw" position="relative" height={{ xs: '50vh', md: "20vw" }} alignItems="center" spacing="20px" overflow="hidden" backgroundColor='rgb(245, 245, 245)' paddingTop="50px">
+                <Stack width="100vw" position="relative" height={{ xs: '50vh', md: "30vw" }} alignItems="center" spacing="20px" overflow="hidden" backgroundColor='rgb(245, 245, 245)' paddingTop="50px">
                     <CustomButton onClick={() => { router.push('/contactUs') }} value="CONTACT US" fontWeight="700" fontSize="13px" />
                 </Stack>
             </Stack >

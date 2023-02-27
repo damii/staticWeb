@@ -28,7 +28,7 @@ const WhyCard = (props) => {
 
 
             <Box display="flex" height="100%" alignItems="center">
-                <Image src={image} width={100} />
+                <Image src={image} width={80} />
             </Box>
         </Stack>
     )
